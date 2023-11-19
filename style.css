@@ -1,0 +1,40 @@
+body , html {
+    height: 100%  ; 
+    padding: 30px ; 
+}
+
+header{
+max-height: 20%;
+color: red ; 
+}
+nav{
+     
+    position:absolute ; 
+    top:10px ; 
+    right: 100px ; 
+}
+a{
+    color: red ; 
+}
+
+section{
+max-height:50% ; 
+display: flex ; 
+}
+.section_left {
+    
+     max-width: 50% ;
+    left: 100px ; 
+}
+.section_right{
+    max-width: 25%;
+  /* margin-right: auto ; */
+   margin-left: auto ; 
+  
+}
+footer{
+    height:30% ; 
+    width:100%  ; 
+    background: yellow ; 
+}
+
